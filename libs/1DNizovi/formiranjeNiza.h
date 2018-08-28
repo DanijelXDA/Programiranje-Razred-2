@@ -18,6 +18,17 @@ void formiranjeNiza(int niz[], int brojElemenata) {
         printf("\tUnesite niz[%d] = ", i);
         scanf("%d", &niz[i]);
     }
+    return;
+}
+
+void ispisElemenataNiza(int *p, int n) {
+    int i;
+
+    printf("\nIspis elemenata niza:\n");
+    for(i = 0; i < n; i++) {
+        printf("\tVrednost niz[%d] = %d", i, *(p + i));
+    }
+    return;
 }
 
 
