@@ -12,6 +12,9 @@ int main(void)
     /* Kraj test scenarija za biblioteku formiranjeNiza.h */
 
 
+     /* Test scenario za biblioteku pretrazivanjeNiza.h */
+
+     /* Kraj test scenarija za biblioteku pretrazivanjeNiza.h */
 
     return 0;
 }
