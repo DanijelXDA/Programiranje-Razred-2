@@ -13,7 +13,7 @@ int main(void)
 
 
      /* Test scenario za biblioteku pretrazivanjeNiza.h */
-
+     preDirektiva();
      /* Kraj test scenarija za biblioteku pretrazivanjeNiza.h */
 
     return 0;
