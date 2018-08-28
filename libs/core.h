@@ -1,7 +1,9 @@
 #ifndef CORE_H_INCLUDED
 #define CORE_H_INCLUDED
 
-#include "libs/1DNizovi.h"
+#include <stdio.h> // Potrebni sistemski heder fajlovi
+#include <stdlib.h> // Potrebni sistemski heder fajlovi
+#include "libs/1DNizovi.h" // Korisnički heder fajl
 
 
 
