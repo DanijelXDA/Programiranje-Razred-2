@@ -26,7 +26,7 @@ void ispisElemenataNiza(int *p, int n) {
 
     printf("\nIspis elemenata niza:\n");
     for(i = 0; i < n; i++) {
-        printf("\tVrednost niz[%d] = %d", i, *(p + i));
+        printf("\tVrednost niz[%d] = %d\n", i, *(p + i));
     }
     return;
 }
