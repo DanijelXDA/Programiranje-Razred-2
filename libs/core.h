@@ -1,3 +1,12 @@
+//////////////////////////////////////////
+//      Zaglavlje biblioteke core.h     //
+//      Biblioteka sadrži neke          //
+//      operacije sa elementima         //
+//      jednodimenzionalnog niza        //
+//                                      //
+//      Autor: Danijel Jovanović        //
+//////////////////////////////////////////
+
 #ifndef CORE_H_INCLUDED
 #define CORE_H_INCLUDED
 
