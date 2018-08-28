@@ -5,7 +5,7 @@ int *brojElemenataNiza(int *pok) {
     do {
         printf("\nUnesite velicinu niza (velicina niza mora biti veca od 0 i manja od 50) = ");
         scanf("%d", pok);
-    } while( *pok < 0 || *pok > 50);
+    } while( *pok < 0 || *pok > 50); // Limitacija na određeni opseg
 
     return pok;
 }
@@ -26,7 +26,7 @@ void ispisElemenataNiza(int *p, int n) {
 
     printf("\nIspis elemenata niza:\n");
     for(i = 0; i < n; i++) {
-        printf("\tVrednost niz[%d] = %d\n", i, *(p + i));
+        printf("\tVrednost niz[%d] = %d\n", i, *(p + i)); // Isto kao p[i]
     }
     return;
 }
