@@ -1,11 +1,8 @@
 #ifndef CORE_H_INCLUDED
 #define CORE_H_INCLUDED
 
-#include <stdio.h>
+#include "libs/1DNizovi.h"
 
-void test(void) {
 
-    printf("FF");
-}
 
 #endif // CORE_H_INCLUDED
