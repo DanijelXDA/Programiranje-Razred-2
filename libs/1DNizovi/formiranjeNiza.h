@@ -10,11 +10,11 @@ int *brojElemenataNiza(int *pok) {
     return pok;
 }
 
-void formiranjeNiza(int niz[], unsigned brojElemenata) {
+void formiranjeNiza(int niz[], int brojElemenata) {
     int i;
 
     for(i = 0; i < brojElemenata; i++) {
-        printf("\nUnesite niz[%d] = ", i);
+        printf("Unesite niz[%d] = ", i);
         scanf("%d", &niz[i]);
     }
 }
