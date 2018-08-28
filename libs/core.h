@@ -3,7 +3,7 @@
 
 #include <stdio.h> // Potrebni sistemski heder fajlovi
 #include <stdlib.h> // Potrebni sistemski heder fajlovi
-#include "libs/1DNizovi.h" // Korisnički heder fajl
+#include "1DNizovi.h" // Korisnički heder fajl
 
 
 

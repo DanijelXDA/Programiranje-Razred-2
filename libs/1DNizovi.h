@@ -1,5 +1,5 @@
-#ifndef 1DNIZOVI_H_INCLUDED
-#define 1DNIZOVI_H_INCLUDED
+#ifndef DNIZOVI_H_INCLUDED
+#define DNIZOVI_H_INCLUDED
 
 #include "1DNizovi/formiranjeNiza.h"
 #include "1DNizovi/pretrazivanjeNiza.h"
