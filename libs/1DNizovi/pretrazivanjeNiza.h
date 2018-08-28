@@ -12,6 +12,11 @@ void preDirektiva(void) {
     int niz[50];
 
     brojElemenataNiza(&n);
+    formiranjeNiza(niz, n);
+
+    pretrazivanjeNiza(niz, n);
 }
+
+
 
 #endif // PRETRAZIVANJENIZA_H_INCLUDED
