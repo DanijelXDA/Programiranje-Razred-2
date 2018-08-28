@@ -3,4 +3,15 @@
 
 #include "formiranjeNiza.h" // Biblioteka potrebna da formiramo niz
 
+
+// Prototip funkcije
+int pretrazivanjeNiza(int[], int);
+
+void preDirektiva(void) {
+    int n;
+    int niz[50];
+
+    brojElemenataNiza(&n);
+}
+
 #endif // PRETRAZIVANJENIZA_H_INCLUDED
