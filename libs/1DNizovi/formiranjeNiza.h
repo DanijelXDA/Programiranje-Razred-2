@@ -13,8 +13,9 @@ int *brojElemenataNiza(int *pok) {
 void formiranjeNiza(int niz[], int brojElemenata) {
     int i;
 
+    printf("\nUnos elemenata niza:\n");
     for(i = 0; i < brojElemenata; i++) {
-        printf("Unesite niz[%d] = ", i);
+        printf("\tUnesite niz[%d] = ", i);
         scanf("%d", &niz[i]);
     }
 }
