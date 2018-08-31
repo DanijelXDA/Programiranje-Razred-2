@@ -1,6 +1,6 @@
 #include "libs/core.h"
 
-int main(void)
+void testFunkcija(void)
 {
     /* Test scenario za biblioteku formiranjeNiza.h */
     int n;
@@ -16,5 +16,5 @@ int main(void)
      preDirektiva();
      /* Kraj test scenarija za biblioteku pretrazivanjeNiza.h */
 
-    return 0;
+    return;
 }
