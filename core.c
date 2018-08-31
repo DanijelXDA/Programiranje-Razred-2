@@ -1,5 +1,12 @@
 #include "libs/core.h"
 
+void testFunkcija(void); // Prototip funkcije
+
+int main(void) { // Glavna funkcija
+
+    return 0;
+}
+
 void testFunkcija(void)
 {
     /* Test scenario za biblioteku formiranjeNiza.h */
