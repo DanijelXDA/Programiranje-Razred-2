@@ -20,4 +20,14 @@ void sortiranjeElemenataNiza(int niz[], int velNiza) {
     return;
 }
 
+void rotirajElemente(int *niz, int i, int j) {
+    int temp;
+    // Zamena mesta elementima niza
+    temp = *(niz + i);
+    *(niz + i) = *(niz + j);
+    *(niz + j) = temp;
+
+    return;
+}
+
 #endif // SORTIRANJEELEMENATAIZNIZA_H_INCLUDED
