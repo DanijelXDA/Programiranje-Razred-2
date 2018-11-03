@@ -7,12 +7,12 @@ void brisanjeElementa(int [], int, int); // Prototip funkcije
 
 int izbacivanjeIzNiza(int niz[], int n)
 {
-    int broj;
+    int i, broj;
 
     printf("\nUnesite koji broj izbacujete iz niza: ");
     scanf("%d", &broj);
 
-    for(int i = 0; i < n; i++) {
+    for(i = 0; i < n; i++) {
         if(niz[i] == broj)
         {
             brisanjeElementa(niz, i, n);
@@ -24,8 +24,10 @@ int izbacivanjeIzNiza(int niz[], int n)
 
 void brisanjeElementa(int niz[], int pozicija, int n)
 {
+    int i;
+
     // Izbacivanje prvog pojavljivanja
-    for(int i = pozicija; i < n - 1; i++) {
+    for(i = pozicija; i < n - 1; i++) {
         niz[i] = niz[i + 1];
     }
 
