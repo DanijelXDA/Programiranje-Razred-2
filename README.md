@@ -4,8 +4,8 @@ Kompletna zaglavlja i izvorni fajlovi primera koda u C-u koji rade sa nizovima
 Sadržaj: </br>
    &emsp;&emsp;    ------> core.c </br>
  &emsp;&emsp;&emsp;   ------> /libs</br>
-    &emsp;&emsp;&ems;&emsp;     -----> core.h</br>
-    &emsp;&emsp;&emsp; &emsp;  &emsp;  -----> 1DNizovi.h</br>
+    &emsp;&emsp;&emsp;&emsp;     -----> core.h</br>
+    &emsp;&emsp;&emsp; &emsp;  &emsp; &emsp;&emsp; -----> 1DNizovi.h</br>
      &emsp;&emsp;&emsp;  &emsp;  -----> /1DNizovi</br>
       &emsp;&emsp;&emsp;  &emsp;&emsp; &emsp;&emsp;    -----> bubbleSort.h</br>
        &emsp;&emsp;&emsp;  &emsp;&emsp;  &emsp;&emsp;  -----> formiranjeNiza.h</br>
