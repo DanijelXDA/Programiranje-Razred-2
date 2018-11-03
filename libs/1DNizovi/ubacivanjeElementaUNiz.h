@@ -10,7 +10,7 @@ int ubacivanjeNaKPozicijuUNizu(int niz[], int n)
     do {
         printf("\n\nUnesite na koju poziciju ubacujete broj: ");
         scanf("%d", &k);
-    } while( k < 1);
+    } while( k < 1 || k > (n - 1) );
 
     printf("\nUnesite koji broj ubacujete na %d. poziciju u nizu: ", k);
     scanf("%d", &broj);

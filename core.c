@@ -13,7 +13,7 @@ void testFunkcija(void)
 {
     /* Test scenario za biblioteku formiranjeNiza.h */
     int n;
-    int niz[50]; // Jednodimenzionalni niz
+    int niz[100]; // Jednodimenzionalni niz
 
 
      /* Test scenario za biblioteku ubacivanjeElementaUNiz.h */
