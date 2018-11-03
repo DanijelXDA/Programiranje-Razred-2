@@ -6,7 +6,7 @@ Sadržaj: </br>
  &emsp;&emsp;&emsp;   ------> /libs</br>
     &emsp;&emsp;&emsp;&emsp;     -----> core.h</br>
     &emsp;&emsp;&emsp; &emsp; -----> 1DNizovi.h</br>
-     &emsp;&emsp;&emsp;  -----> /1DNizovi</br>
+     &emsp;&emsp;&emsp;&emsp;  -----> /1DNizovi</br>
       &emsp;&emsp;&emsp;  &emsp;&emsp; &emsp;&emsp;    -----> bubbleSort.h</br>
        &emsp;&emsp;&emsp;  &emsp;&emsp;  &emsp;&emsp;  -----> formiranjeNiza.h</br>
        &emsp;&emsp;&emsp;  &emsp;&emsp;  &emsp;&emsp;  -----> invertovanjeNiza.h</br>
