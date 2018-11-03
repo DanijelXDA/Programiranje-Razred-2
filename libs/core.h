@@ -5,6 +5,7 @@
 //      jednodimenzionalnog niza        //
 //                                      //
 //      Autor: Danijel Jovanović        //
+//      Datum: 3.11.2018.               //
 //////////////////////////////////////////
 
 #ifndef CORE_H_INCLUDED
