@@ -56,5 +56,13 @@ void testFunkcija(void)
      ispisElemenataNiza(niz, n); // Ispis elemenata niza
      /* Test scenario za biblioteku rotiranjeNiza.h */
 
+    /* Test scenario za biblioteku rotiranjeNizaKPuta.h */
+     brojElemenataNiza(&n); // Poziv nase funkcije
+     formiranjeNiza(niz, n); // Unos elemenata niza
+     rotiranjeKPutaUlevo(niz, n); // ROTIRANJE UDESNO ZA JEDNO MESTO
+     ispisElemenataNiza(niz, n); // Ispis elemenata niza
+     /* Test scenario za biblioteku rotiranjeNizaKPuta.h */
+
+
     return;
 }
