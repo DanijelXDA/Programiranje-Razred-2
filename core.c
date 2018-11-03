@@ -70,6 +70,12 @@ void testFunkcija(void)
      ispisElemenataNiza(niz, n); // Ispis elemenata niza
      /* Test scenario za biblioteku ubacivanjeElementaUNiz.h */
 
+    /* Test scenario za biblioteku bubbleSort.h */
+     brojElemenataNiza(&n); // Poziv nase funkcije
+     formiranjeNiza(niz, n); // Unos elemenata niza
+     bubbleSortiranjeNiza(niz, n); // bubble sort - Sortiranje Niza
+     ispisElemenataNiza(niz, n); // Ispis elemenata niza
+     /* Test scenario za biblioteku bubbleSort.h */
 
     return;
 }
