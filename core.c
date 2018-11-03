@@ -33,5 +33,13 @@ void testFunkcija(void)
      /* Test scenario za biblioteku sortiranjeNiza.h */
 
 
+     /* Test scenario za biblioteku izbacivanjeElementaIzNiza.h */
+     brojElemenataNiza(&n); // Poziv nase funkcije
+     formiranjeNiza(niz, n); // Unos elemenata niza
+     n = izbacivanjeIzNiza(niz, n);
+     ispisElemenataNiza(niz, n); // Ispis elemenata niza
+     /* Test scenario za biblioteku izbacivanjeElementaIzNiza.h */
+
+
     return;
 }
