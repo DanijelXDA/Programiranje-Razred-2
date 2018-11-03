@@ -2,17 +2,17 @@
 Kompletna zaglavlja i izvorni fajlovi primera koda u C-u koji rade sa nizovima
 
 Sadržaj: </br>
-    ------> core.c </br>
-    ------> /libs</br>
-        -----> core.h</br>
-        -----> 1DNizovi.h</br>
-        -----> /1DNizovi</br>
-            -----> bubbleSort.h</br>
-            -----> formiranjeNiza.h</br>
-            -----> invertovanjeNiza.h</br>
-            -----> iznacivanjeElementaIzNiza.h</br>
-            -----> pretrazivanjeNiza.h</br>
-            -----> rotiranjeNiza.h</br>
-            -----> rotiranjeNizaKPuta.h</br>
-            -----> sortiranjeElemenataIzNiza.h</br>
-            -----> ubacivanjeElementaUNiz.h</br>
+&emsp;&emsp;    ------> core.c </br>
+ &emsp;&emsp;&emsp;   ------> /libs</br>
+    &emsp;&emsp;&emsp;     -----> core.h</br>
+    &emsp;&emsp;&emsp;     -----> 1DNizovi.h</br>
+     &emsp;&emsp;&emsp;    -----> /1DNizovi</br>
+      &emsp;&emsp;&emsp;       -----> bubbleSort.h</br>
+       &emsp;&emsp;&emsp;      -----> formiranjeNiza.h</br>
+       &emsp;&emsp;&emsp;      -----> invertovanjeNiza.h</br>
+       &emsp;&emsp;&emsp;      -----> iznacivanjeElementaIzNiza.h</br>
+       &emsp;&emsp;&emsp;      -----> pretrazivanjeNiza.h</br>
+      &emsp;&emsp;&emsp;       -----> rotiranjeNiza.h</br>
+       &emsp;&emsp;&emsp;      -----> rotiranjeNizaKPuta.h</br>
+        &emsp;&emsp;&emsp;     -----> sortiranjeElemenataIzNiza.h</br>
+       &emsp;&emsp;&emsp;      -----> ubacivanjeElementaUNiz.h</br>
