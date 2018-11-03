@@ -52,14 +52,14 @@ void testFunkcija(void)
      /* Test scenario za biblioteku rotiranjeNiza.h */
      brojElemenataNiza(&n); // Poziv nase funkcije
      formiranjeNiza(niz, n); // Unos elemenata niza
-     rotiranjeNizaUdesno(niz, n); // ROTIRANJE UDESNO ZA JEDNO MESTO
+     rotiranjeNizaUdesno(niz, n); // ROTIRANJE ULEVO ZA K MESTA
      ispisElemenataNiza(niz, n); // Ispis elemenata niza
      /* Test scenario za biblioteku rotiranjeNiza.h */
 
     /* Test scenario za biblioteku rotiranjeNizaKPuta.h */
      brojElemenataNiza(&n); // Poziv nase funkcije
      formiranjeNiza(niz, n); // Unos elemenata niza
-     rotiranjeKPutaUlevo(niz, n); // ROTIRANJE UDESNO ZA JEDNO MESTO
+     rotiranjeKPutaUlevo(niz, n); // ROTIRANJE ULEVO ZA K MESTA
      ispisElemenataNiza(niz, n); // Ispis elemenata niza
      /* Test scenario za biblioteku rotiranjeNizaKPuta.h */
 

@@ -23,12 +23,12 @@ void rotiranjeKPutaUdesno(int niz[], int n)
     int i, k;
 
     do {
-        printf("\nUnesite koliko puta rotirate niz ulevo: ");
+        printf("\nUnesite koliko puta rotirate niz udesno: ");
         scanf("%d", &k);
     } while( k < 1);
 
     for(i = 0; i < k; i++) // Rotiranje k puta
-        rotiranjeNizaUdesno(niz, n); // Rotiranje ulevo;
+        rotiranjeNizaUdesno(niz, n); // Rotiranje udesno;
 
 }
 #endif // ROTIRANJENIZAKPUTA_H_INCLUDED
