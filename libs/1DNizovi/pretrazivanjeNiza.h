@@ -33,6 +33,10 @@ int pretrazivanjeNiza(int niz[], int n) {
             printf("\nTrazeni broj ( %d ) se nalazi na %d. poziciji u nizu.", broj, i);
         }
     }
+
+    if(i == n)
+        printf("\nTrazeni broj ne postoji u nizu!");
+
     return 0; // 0- Sve je u redu; !0 -> Greška
 }
 
