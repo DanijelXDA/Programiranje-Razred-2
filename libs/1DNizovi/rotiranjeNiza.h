@@ -25,8 +25,8 @@ void rotiranjeNizaUdesno(int niz[], int n)
     printf("\n\nRotiranje elemenata niza udesno\n");
 
     temp = niz[n - 1]; // Cuvamo poslednji element u nizu
-    for(i = n - 1; i >= 0; i--) {
-        niz[i - 1] = niz[i]; // Pomeranje udesno
+    for(i = n - 2; i >= 0; i--) {
+        niz[i + 1] = niz[i]; // Pomeranje udesno
     }
     niz[0] = temp;
 
